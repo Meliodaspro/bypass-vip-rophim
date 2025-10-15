@@ -23,9 +23,8 @@ Script **KHÔNG CẦN KEY** - Hoạt động ngay lập tức!
 
 | Trình duyệt | Link tải |
 |-------------|----------|
-| **Chrome/Edge** | [Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/) |
-| **Firefox** | [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/tampermonkey/) |
-| **Safari** | [App Store](https://apps.apple.com/app/tampermonkey/) |
+| **Chrome/Edge** | [Chrome Web Store]https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) |
+| **Mobile** | [Mobile](https://chromewebstore.google.com/detail/tampermonkey-legacy/lcmhijbkigalmkeommnijlpobloojgfn) |
 
 ### **Bước 2: Cài Script**
 
