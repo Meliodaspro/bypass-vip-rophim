@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Rophim Full VIP
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @description  Bypass VIP + Coin trên Rophim
-// @author       FireT
-// @require      https://raw.githubusercontent.com/firetofficial/bypass-rophim-vip/refs/heads/main/rophim_vip.js
+// @author       US
+// @require      https://raw.githubusercontent.com/Meliodaspro/bypass-vip-rophim/refs/heads/main/Bypas-vip-rophim.js
 // @match        *://www.rophim.me/*
 // @match        *://www.rophim.mx/*
 // @match        *://www.rophim.li/*
