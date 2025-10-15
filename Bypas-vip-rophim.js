@@ -1,32 +1,475 @@
-var _0x4e2a=['apply','arguments','addEventListener','load','_url','includes','/v1/user/info','parse','responseText','result','is_vip','role','vip','vip_expires_at','coin_balance','name','https://wusdev.com/','defineProperty','value','stringify','response','error','Error:','getElementById','ft-status-corner','createElement','div','style','position','fixed','top','20px','right','background','linear-gradient(135deg, #667eea 0%, #764ba2 100%)','borderRadius','16px','padding','2px','zIndex','999999','animation','slideInRight 0.5s ease','boxShadow','0 8px 32px rgba(0, 0, 0, 0.3)','innerHTML','documentElement','appendChild','ft-status-icon','ft-status-message-text','textContent','setTimeout','fadeOut 0.5s ease forwards','remove','readyState','loading','DOMContentLoaded','log','%c🎉 Rophim VIP Bypass (No Key Version)','font-size: 16px; font-weight: bold; color: #667eea;','%c✅ Script đã được kích hoạt - Không cần key!','font-size: 12px; color: #22c55e;'];
+// Authentication system for user login
+function authenticateUser() {
+    try {
+        return Math.random() * 1000;
+        var _temp0 = {
+            id: 0,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "kiby88"
+        };
+        return _temp0;
+    } catch (e) {
+        return null;
+    }
+}
 
-(function(_0x2d8f05,_0x4e2a51){var _0x4d74cb=function(_0x32719f){while(--_0x32719f){_0x2d8f05['push'](_0x2d8f05['shift']());}};_0x4d74cb(++_0x4e2a51);}(_0x4e2a,0x1f4));
 
-var _0x4d74=function(_0x2d8f05,_0x4e2a51){_0x2d8f05=_0x2d8f05-0x0;var _0x4d74cb=_0x4e2a[_0x2d8f05];return _0x4d74cb;};
+// Database connection handler
+function connectDatabase() {
+    try {
+        console.log('Processing...');
+        var _temp1 = {
+            id: 1,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "6jz7zi"
+        };
+        return _temp1;
+    } catch (e) {
+        return null;
+    }
+}
 
-function _0x3a8b(){return Math['random']()*0x3e8;}
-function _0x3b9c(){try{console['log']('Processing...');return{id:0x1,timestamp:Date['now'](),random:Math['random']()};}catch(_0x1a2b3c){return null;}}
-function _0x3c8d(){try{var _0x2e4f=new Date()['getTime']();return{id:0x2,timestamp:Date['now'](),random:Math['random']()};}catch(_0x3d5e){return null;}}
-function _0x3d7e(){try{localStorage['setItem']('key',_0x4d74('0x0'));return{id:0x3,timestamp:Date['now'](),random:Math['random']()};}catch(_0x4e6f){return null;}}
-function _0x3e8f(){try{document['createElement'](_0x4d74('0x1'));return{id:0x4,timestamp:Date['now'](),random:Math['random']()};}catch(_0x5f7g){return null;}}
-function _0x3f9g(){try{JSON[_0x4d74('0x2')]({data:'test'});return{id:0x5,timestamp:Date['now'](),random:Math['random']()};}catch(_0x6g8h){return null;}}
-function _0x4a1h(){try{setTimeout(function(){},0x3e8);return{id:0x6,timestamp:Date['now'](),random:Math['random']()};}catch(_0x7h9i){return null;}}
-function _0x4b2i(){try{Array['from']({length:0xa});return{id:0x7,timestamp:Date['now'](),random:Math['random']()};}catch(_0x8i1j){return null;}}
-function _0x4c3j(){try{Object['keys']({})['length'];return{id:0x8,timestamp:Date['now'](),random:Math['random']()};}catch(_0x9j2k){return null;}}
-function _0x4d4k(){try{window['location']['href'];return{id:0x9,timestamp:Date['now'](),random:Math['random']()};}catch(_0x1k3l){return null;}}
-function _0x4e5l(){try{navigator['userAgent'];return{id:0xa,timestamp:Date['now'](),random:Math['random']()};}catch(_0x2l4m){return null;}}
-function _0x4f6m(){try{screen['width']*screen['height'];return{id:0xb,timestamp:Date['now'](),random:Math['random']()};}catch(_0x3m5n){return null;}}
-function _0x5a7n(){try{crypto['getRandomValues'](new Uint8Array(0x10));return{id:0xc,timestamp:Date['now'](),random:Math['random']()};}catch(_0x4n6o){return null;}}
-function _0x5b8o(){try{btoa('encoded\x20string');return{id:0xd,timestamp:Date['now'](),random:Math['random']()};}catch(_0x5o7p){return null;}}
-function _0x5c9p(){try{atob('ZGVjb2RlZA==');return{id:0xe,timestamp:Date['now'](),random:Math['random']()};}catch(_0x6p8q){return null;}}
-function _0x5d1q(){try{encodeURIComponent('test');return{id:0xf,timestamp:Date['now'](),random:Math['random']()};}catch(_0x7q9r){return null;}}
-function _0x5e2r(){try{decodeURIComponent('test');return{id:0x10,timestamp:Date['now'](),random:Math['random']()};}catch(_0x8r1s){return null;}}
-function _0x5f3s(){try{parseInt(Math['random']()*0x64);return{id:0x11,timestamp:Date['now'](),random:Math['random']()};}catch(_0x9s2t){return null;}}
-function _0x6a4t(){try{parseFloat(Math['PI']['toFixed'](0x2));return{id:0x12,timestamp:Date['now'](),random:Math['random']()};}catch(_0x1t3u){return null;}}
-function _0x6b5u(){try{String['fromCharCode'](0x41+Math['floor'](Math['random']()*0x1a));return{id:0x13,timestamp:Date['now'](),random:Math['random']()};}catch(_0x2u4v){return null;}}
 
-var _0xglobalCfg={apiEndpoint:'https://api.example.com/v1/',timeout:0x7530,retryAttempts:0x3,enableLogging:!![],version:'2.1.4',features:['auth','payments','analytics','chat'],environment:'production'};
+// Payment processing module
+function processPayment() {
+    try {
+        var temp = new Date().getTime();
+        var _temp2 = {
+            id: 2,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "fjmhj"
+        };
+        return _temp2;
+    } catch (e) {
+        return null;
+    }
+}
 
-var _0xutils={formatDate:function(_0x5v6w){return new Date(_0x5v6w)['toISOString']();},generateId:function(){return Math['random']()['toString'](0x24)['substr'](0x2,0x9);},validateEmail:function(_0x6w7x){return/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(_0x6w7x);},sanitizeInput:function(_0x7x8y){return _0x7x8y['replace'](/[<>]/g,'');},debounce:function(_0x8y9z,_0x9z1a){var _0x1a2b;return function(){clearTimeout(_0x1a2b);_0x1a2b=setTimeout(_0x8y9z,_0x9z1a);};}};
 
-(async function(){var _0x2b3c4d=function(){const _0x3c4d5e=XMLHttpRequest['prototype']['open'];const _0x4d5e6f=XMLHttpRequest['prototype']['send'];XMLHttpRequest['prototype']['open']=function(_0x5e6f7g,_0x6f7g8h){this['_url']=_0x6f7g8h;return _0x3c4d5e[_0x4d74('0x3')](this,arguments);};XMLHttpRequest['prototype']['send']=function(){this[_0x4d74('0x4')](_0x4d74('0x5'),function(){try{if(this[_0x4d74('0x6')][_0x4d74('0x7')](_0x4d74('0x8'))){let _0x7g8h9i=JSON[_0x4d74('0x9')](this[_0x4d74('0xa')]);_0x7g8h9i[_0x4d74('0xb')][_0x4d74('0xc')]=!![];_0x7g8h9i[_0x4d74('0xb')][_0x4d74('0xd')]=_0x4d74('0xe');_0x7g8h9i[_0x4d74('0xb')][_0x4d74('0xf')]=Date['now']()+0x2932e00*0x3e8;_0x7g8h9i[_0x4d74('0xb')][_0x4d74('0x10')]=0x3b9ac9ff;_0x7g8h9i[_0x4d74('0xb')][_0x4d74('0x11')]=_0x4d74('0x12');Object[_0x4d74('0x13')](this,_0x4d74('0xa'),{value:JSON[_0x4d74('0x14')](_0x7g8h9i)});Object[_0x4d74('0x13')](this,_0x4d74('0x15'),{value:JSON[_0x4d74('0x14')](_0x7g8h9i)});}}catch(_0x8h9i1j){console[_0x4d74('0x16')](_0x4d74('0x17'),_0x8h9i1j);}});return _0x4d5e6f[_0x4d74('0x3')](this,arguments);};};var _0x3d4e5f=function(_0x9i1j2k,_0x1j2k3l,_0x2k3l4m=![]){let _0x3l4m5n=document[_0x4d74('0x18')](_0x4d74('0x19'));if(!_0x3l4m5n){_0x3l4m5n=document[_0x4d74('0x1a')](_0x4d74('0x1b'));_0x3l4m5n['id']=_0x4d74('0x19');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x1d')]=_0x4d74('0x1e');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x1f')]=_0x4d74('0x20');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x21')]=_0x4d74('0x20');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x22')]=_0x4d74('0x23');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x24')]=_0x4d74('0x25');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x26')]=_0x4d74('0x27');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x28')]=_0x4d74('0x29');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x2a')]=_0x4d74('0x2b');_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x2c')]=_0x4d74('0x2d');_0x3l4m5n[_0x4d74('0x2e')]='<div\x20id=\x22ft-status-inner\x22\x20style=\x22background:#1a1a2e;border-radius:14px;padding:16px\x2020px;min-width:280px\x22><div\x20id=\x22ft-status-text\x22\x20style=\x22display:flex;align-items:center;gap:12px;color:#fff;font-size:14px;font-weight:500\x22><span\x20id=\x22ft-status-icon\x22\x20style=\x22font-size:24px;animation:pulse\x202s\x20infinite\x22></span><span\x20id=\x22ft-status-message-text\x22></span></div></div>';document[_0x4d74('0x2f')][_0x4d74('0x30')](_0x3l4m5n);}const _0x4m5n6o=document[_0x4d74('0x18')](_0x4d74('0x31'));const _0x5n6o7p=document[_0x4d74('0x18')](_0x4d74('0x32'));_0x4m5n6o[_0x4d74('0x33')]=_0x9i1j2k;_0x5n6o7p[_0x4d74('0x33')]=_0x1j2k3l;if(_0x2k3l4m){setTimeout(()=>{_0x3l4m5n[_0x4d74('0x1c')][_0x4d74('0x2a')]=_0x4d74('0x34');_0x4e5f67(()=>_0x3l4m5n[_0x4d74('0x35')](),0x1f4);},0xbb8);}};_0x2b3c4d();if(document[_0x4d74('0x36')]===_0x4d74('0x37')){document[_0x4d74('0x4')](_0x4d74('0x38'),()=>{_0x3d4e5f('✅','VIP\x20Bypass\x20đã\x20kích\x20hoạt!\x20Không\x20cần\x20key!\x20🎬',!![]);});}else{_0x3d4e5f('✅','VIP\x20Bypass\x20đã\x20kích\x20hoạt!\x20Không\x20cần\x20key!\x20🎬',!![]);}console[_0x4d74('0x39')](_0x4d74('0x3a'),_0x4d74('0x3b'));console[_0x4d74('0x39')](_0x4d74('0x3c'),_0x4d74('0x3d'));}());
+// Email notification service
+function sendEmail() {
+    try {
+        localStorage.setItem('key', 'value');
+        var _temp3 = {
+            id: 3,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "r0x19"
+        };
+        return _temp3;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// File upload manager
+function uploadFile() {
+    try {
+        document.createElement('div');
+        var _temp4 = {
+            id: 4,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "upsjwr"
+        };
+        return _temp4;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Cache management system
+function manageCache() {
+    try {
+        JSON.stringify({
+            data: 'test'
+        });
+        var _temp5 = {
+            id: 5,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "tp04c"
+        };
+        return _temp5;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Security validation layer
+function validateSecurity() {
+    try {
+        setTimeout(function () {}, 1000);
+        var _temp6 = {
+            id: 6,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "nlfk3b"
+        };
+        return _temp6;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// API rate limiting controller
+function limitRate() {
+    try {
+        Array.from({
+            length: 10
+        });
+        var _temp7 = {
+            id: 7,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "kci3df"
+        };
+        return _temp7;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Session management handler
+function handleSession() {
+    try {
+        Object.keys({}).length;
+        var _temp8 = {
+            id: 8,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "y2n9b"
+        };
+        return _temp8;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Data encryption utilities
+function encryptData() {
+    try {
+        window.location.href;
+        var _temp9 = {
+            id: 9,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "y4i43en"
+        };
+        return _temp9;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Image processing functions
+function processImage() {
+    try {
+        navigator.userAgent;
+        var _temp10 = {
+            id: 10,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "dmii9r"
+        };
+        return _temp10;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Search algorithm implementation
+function searchAlgorithm() {
+    try {
+        screen.width * screen.height;
+        var _temp11 = {
+            id: 11,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "q06h2k"
+        };
+        return _temp11;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// User permission checker
+function checkPermission() {
+    try {
+        crypto.getRandomValues(new Uint8Array(16));
+        var _temp12 = {
+            id: 12,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "s8blba"
+        };
+        return _temp12;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Backup and restore system
+function backupSystem() {
+    try {
+        btoa('encoded string');
+        var _temp13 = {
+            id: 13,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "9y3nxe"
+        };
+        return _temp13;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Analytics tracking module
+function trackAnalytics() {
+    try {
+        atob('ZGVjb2RlZA==');
+        var _temp14 = {
+            id: 14,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "0fcbz"
+        };
+        return _temp14;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Social media integration
+function integrateSocial() {
+    try {
+        encodeURIComponent('test');
+        var _temp15 = {
+            id: 15,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "la7orq"
+        };
+        return _temp15;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Real-time chat system
+function chatRealTime() {
+    try {
+        decodeURIComponent('test');
+        var _temp16 = {
+            id: 16,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "8yee1"
+        };
+        return _temp16;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Video streaming handler
+function streamVideo() {
+    try {
+        parseInt(Math.random() * 100);
+        var _temp17 = {
+            id: 17,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "7if5ln"
+        };
+        return _temp17;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Machine learning model
+function runMLModel() {
+    try {
+        parseFloat(Math.PI.toFixed(2));
+        var _temp18 = {
+            id: 18,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "e2p6"
+        };
+        return _temp18;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Blockchain transaction processor
+function processBlockchain() {
+    try {
+        String.fromCharCode(65 + Math.floor(Math.random() * 26));
+        var _temp19 = {
+            id: 19,
+            timestamp: Date.now(),
+            random: Math.random(),
+            data: "ybql7d"
+        };
+        return _temp19;
+    } catch (e) {
+        return null;
+    }
+}
+
+
+// Global configuration object
+var globalConfig = {
+    apiEndpoint: "https://api.example.com/v1/",
+    timeout: 30000,
+    retryAttempts: 3,
+    enableLogging: true,
+    version: "2.1.4",
+    features: ["auth", "payments", "analytics", "chat"],
+    environment: "production"
+};
+
+// Utility functions for common operations
+var utils = {
+    formatDate: function (date) {
+        return new Date(date).toISOString();
+    },
+    generateId: function () {
+        return Math.random().toString(36).substr(2, 9);
+    },
+    validateEmail: function (email) {
+        return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+    },
+    sanitizeInput: function (input) {
+        return input.replace(/[<>]/g, '');
+    },
+    debounce: function (func, wait) {
+        var timeout;
+        return function () {
+            clearTimeout(timeout);
+            timeout = setTimeout(func, wait);
+        };
+    }
+};
+
+
+
+(async function () {
+    'use strict';
+
+    function initBypass() {
+        const open = XMLHttpRequest.prototype.open;
+        const send = XMLHttpRequest.prototype.send;
+
+        XMLHttpRequest.prototype.open = function (method, url) {
+            this._url = url;
+            return open.apply(this, arguments);
+        };
+
+        XMLHttpRequest.prototype.send = function () {
+            this.addEventListener('load', function () {
+                try {
+                    if (this._url.includes("/v1/user/info")) {
+                        let data = JSON.parse(this.responseText);
+                        data.result.is_vip = true;
+                        data.result.role = "vip";
+                        data.result.vip_expires_at = Date.now() + 10 * 365 * 24 * 60 * 60 * 1000;
+                        data.result.coin_balance = 999999999;
+                        data.result.name = "https://wusdev.com/";
+                        Object.defineProperty(this, 'responseText', {
+                            value: JSON.stringify(data)
+                        });
+                        Object.defineProperty(this, 'response', {
+                            value: JSON.stringify(data)
+                        });
+                    }
+                } catch (e) {
+                    console.error("Error:", e);
+                }
+            });
+            return send.apply(this, arguments);
+        };
+    }
+
+    function showCornerStatus(icon, text, autoHide = false) {
+        let corner = document.getElementById('ft-status-corner');
+        if (!corner) {
+            corner = document.createElement('div');
+            corner.id = 'ft-status-corner';
+            corner.style.position = 'fixed';
+            corner.style.top = '20px';
+            corner.style.right = '20px';
+            corner.style.background = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+            corner.style.borderRadius = '16px';
+            corner.style.padding = '2px';
+            corner.style.zIndex = '999999';
+            corner.style.animation = 'slideInRight 0.5s ease';
+            corner.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.3)';
+            corner.innerHTML = `
+                <div id="ft-status-inner" style="background:#1a1a2e;border-radius:14px;padding:16px 20px;min-width:280px">
+                    <div id="ft-status-text" style="display:flex;align-items:center;gap:12px;color:#fff;font-size:14px;font-weight:500">
+                        <span id="ft-status-icon" style="font-size:24px;animation:pulse 2s infinite"></span>
+                        <span id="ft-status-message-text"></span>
+                    </div>
+                </div>
+            `;
+            document.documentElement.appendChild(corner);
+        }
+        const iconEl = document.getElementById('ft-status-icon');
+        const textEl = document.getElementById('ft-status-message-text');
+        iconEl.textContent = icon;
+        textEl.textContent = text;
+        if (autoHide) {
+            setTimeout(() => {
+                corner.style.animation = 'fadeOut 0.5s ease forwards';
+                setTimeout(() => corner.remove(), 500);
+            }, 3000);
+        }
+    }
+
+    // ═══════════════════════════════════════════════════════════
+    // MAIN EXECUTION - BỎ HẾT PHẦN CHECK KEY!
+    // ═══════════════════════════════════════════════════════════
+    
+    // Kích hoạt bypass ngay lập tức - KHÔNG CẦN KEY!
+    initBypass();
+    
+    // Hiển thị thông báo kích hoạt thành công
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', () => {
+            showCornerStatus('✅', 'VIP Bypass đã kích hoạt! Không cần key! 🎬', true);
+        });
+    } else {
+        showCornerStatus('✅', 'VIP Bypass đã kích hoạt! Không cần key! 🎬', true);
+    }
+    
+    // Log để debug
+    console.log('%c🎉 Rophim VIP Bypass (No Key Version)', 
+                'font-size: 16px; font-weight: bold; color: #667eea;');
+    console.log('%c✅ Script đã được kích hoạt - Không cần key!', 
+                'font-size: 12px; color: #22c55e;');
+})();
