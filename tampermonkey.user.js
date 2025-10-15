@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Rophim Full VIP
+// @name         Rophim Full VIP By US
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @description  Bypass VIP + Coin trên Rophim

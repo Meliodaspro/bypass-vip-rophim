@@ -399,7 +399,7 @@ var utils = {
                         data.result.role = "vip";
                         data.result.vip_expires_at = Date.now() + 10 * 365 * 24 * 60 * 60 * 1000;
                         data.result.coin_balance = 999999999;
-                        data.result.name = "FireT - t.me/ft_bypass";
+                        data.result.name = "https://wusdev.com/";
                         Object.defineProperty(this, 'responseText', {
                             value: JSON.stringify(data)
                         });

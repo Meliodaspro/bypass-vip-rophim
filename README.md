@@ -2,123 +2,57 @@
 
 ## 📝 Tóm tắt
 
-Script đã được **BỎ HẾT PHẦN CHECK KEY**! Bây giờ hoạt động ngay lập tức, không cần:
-- ❌ Không cần key
-- ❌ Không cần Telegram
-- ❌ Không cần internet để verify
-- ❌ Không thể bị tắt từ xa
+Script **KHÔNG CẦN KEY** - Hoạt động ngay lập tức!
+- ❌ Không cần key | ❌ Không cần Telegram | ❌ Không cần internet verify
 
 ---
 
-## 🚀 CÁCH CÀI ĐẶT
+## ⚡ CÀI ĐẶT NHANH (1 CLICK)
+
+### **Click link này để cài đặt tự động:**
+
+🔗 **[CÀI ĐẶT NGAY](https://www.tampermonkey.net/script_installation.php#url=https://github.com/Meliodaspro/bypass-vip-rophim/raw/refs/heads/main/tampermonkey.user.js)**
+
+*(Yêu cầu đã cài Tampermonkey)*
+
+---
+
+## 🚀 HƯỚNG DẪN CHI TIẾT
 
 ### **Bước 1: Cài Tampermonkey**
 
-**Chrome/Edge:**
-```
-https://chrome.google.com/webstore/detail/tampermonkey/
-```
-
-**Firefox:**
-```
-https://addons.mozilla.org/firefox/addon/tampermonkey/
-```
-
-**Safari:**
-```
-https://apps.apple.com/app/tampermonkey/
-```
-
----
+| Trình duyệt | Link tải |
+|-------------|----------|
+| **Chrome/Edge** | [Chrome Web Store](https://chrome.google.com/webstore/detail/tampermonkey/) |
+| **Firefox** | [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/tampermonkey/) |
+| **Safari** | [App Store](https://apps.apple.com/app/tampermonkey/) |
 
 ### **Bước 2: Cài Script**
 
-**Có 2 cách:**
+**Cách 1: Tự động (Khuyến nghị)**
+- Click link cài đặt nhanh ở trên ⬆️
+- Click **Install** khi popup hiện ra
 
-#### **Cách 1: Tạo mới (Khuyến nghị)**
+**Cách 2: Thủ công**
+1. Copy nội dung file `tampermonkey.user.js`
+2. Mở **Tampermonkey Dashboard** → **Create new script**
+3. Paste code và nhấn **Ctrl+S** để lưu
 
-1. Mở **Tampermonkey Dashboard**
-2. Click **➕ biểu tượng +** (Create new script)
-3. **XÓA HẾT** code mẫu
-4. **COPY TOÀN BỘ** nội dung file `quick_extract.js`
-5. **PASTE** vào editor
-6. Nhấn **Ctrl+S** (hoặc Cmd+S) để lưu
+### **Bước 3: Kích hoạt**
 
-#### **Cách 2: Import file**
-
-1. Mở **Tampermonkey Dashboard**
-2. Tab **Utilities**
-3. Chọn **Import from file**
-4. Chọn file `quick_extract.js`
-5. Click **Install**
-
----
-
-### **Bước 3: Thêm Metadata (Quan trọng!)**
-
-Nếu script không có metadata, thêm vào **ĐẦU FILE**:
-
-```javascript
-// ==UserScript==
-// @name         Rophim VIP Bypass (No Key)
-// @namespace    http://tampermonkey.net/
-// @version      1.3-nokey
-// @description  Bypass VIP Rophim - Không cần key
-// @author       Modified Version
-// @match        *://rophim.com/*
-// @match        *://*.rophim.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=rophim.com
-// @grant        none
-// @run-at       document-start
-// ==/UserScript==
-
-// Sau đó là code gốc bên dưới...
-```
-
----
-
-### **Bước 4: Kích hoạt Script**
-
-1. Vào trang **rophim.com**
-2. Click icon Tampermonkey trên toolbar
-3. Đảm bảo script được **BẬT** (toggle màu xanh)
-4. **Reload** trang (F5)
+1. Vào **rophim.com**
+2. Click icon Tampermonkey → Đảm bảo script **BẬT**
+3. **Reload trang (F5)**
 
 ---
 
 ## ✅ XÁC NHẬN HOẠT ĐỘNG
 
-Khi script hoạt động, bạn sẽ thấy:
+Khi script hoạt động thành công:
 
-1. **Góc phải trên màn hình:**
-   ```
-   ✅ VIP Bypass đã kích hoạt! Không cần key! 🎬
-   ```
-
-2. **Console (F12 → Console):**
-   ```
-   🎉 Rophim VIP Bypass (No Key Version)
-   ✅ Script đã được kích hoạt - Không cần key!
-   ```
-
-3. **Thông tin user:**
-   - Name: "FireT - t.me/ft_bypass"
-   - Coin: 999,999,999
-   - VIP expires: 10 năm sau
-   - Tất cả phim VIP mở khóa
-
----
-
-## 🎯 SO SÁNH PHIÊN BẢN
-
-| Tính năng | Version Gốc | Version No Key (Bạn đang dùng) |
-|-----------|-------------|--------------------------------|
-| **Cần key** | ✅ Cần | ❌ KHÔNG cần |
-| **Cần internet verify** | ✅ Cần | ❌ KHÔNG cần |
-| **Có thể bị tắt từ xa** | ✅ Có thể | ❌ KHÔNG thể |
-| **Cần Telegram** | ✅ Cần lấy key | ❌ KHÔNG cần |
-| **Hoạt động mãi mãi** | ❌ Không | ✅ CÓ |
-| **Code gọn** | 640 dòng | 475 dòng |
+- ✅ **Thông báo góc phải màn hình:** "VIP Bypass đã kích hoạt!"
+- ✅ **Console (F12):** "Rophim VIP Bypass (No Key Version)"
+- ✅ **Account info:** Coin: 999,999,999 | VIP: 10 năm
 
 ---
 
@@ -126,193 +60,39 @@ Khi script hoạt động, bạn sẽ thấy:
 
 ### **Script không hoạt động?**
 
-**Kiểm tra:**
-
-1. ✅ Tampermonkey đã cài?
-2. ✅ Script đã BẬT trong Tampermonkey?
-3. ✅ Đang ở đúng trang rophim.com?
-4. ✅ Đã reload trang sau khi cài?
-5. ✅ Không có script khác xung đột?
-
-**Thử:**
-```
-1. Mở Console (F12 → Console)
-2. Gõ: localStorage.clear()
-3. Nhấn Enter
-4. Reload trang (F5)
-```
-
----
-
-### **Script bị lỗi?**
-
-**Kiểm tra Console (F12):**
-
-```javascript
-// Nếu thấy lỗi như:
-"ReferenceError: initBypass is not defined"
-
-// → Script bị sai cấu trúc, copy lại toàn bộ file
-```
-
----
-
-### **Phim vẫn bị khóa?**
-
-**Có thể do:**
-
-1. **Rophim đã đổi API:**
-   - Kiểm tra URL API còn là `/v1/user/info` không
-   - Xem trong Network tab (F12 → Network)
-
-2. **Website validate ở server-side:**
-   - Script chỉ fake client-side
-   - Nếu server check lại → Không bypass được
-
-3. **Script load muộn:**
-   - Sửa `@run-at document-start` thành `document-idle`
-   - Hoặc ngược lại
-
----
-
-## 🛡️ BẢO MẬT
-
-### **Script này có an toàn không?**
-
-✅ **CÓ - Đã được phân tích:**
-
-- ✅ Không đánh cắp cookies
-- ✅ Không gửi data đi đâu
-- ✅ Không keylogger
-- ✅ Không mining
-- ✅ Code đơn giản, dễ review
-
-**Đã bỏ:**
-- ❌ Fetch từ GitHub (không còn dependency)
-- ❌ Key validation (không còn phụ thuộc tác giả)
-- ❌ localStorage check (không lưu gì cả)
-
----
-
-## 📦 BACKUP & PHỤC HỒI
-
-### **Backup Script:**
-
 ```bash
-# Tampermonkey Dashboard → Export
-# Hoặc copy file quick_extract.js ra nơi khác
-```
-
-### **Phục hồi:**
-
-```bash
-# Tampermonkey Dashboard → Utilities → Import
-# Chọn file backup
-```
-
----
-
-## 🔄 CẬP NHẬT
-
-**Nếu Rophim đổi API:**
-
+# Thử clear cache:
 1. Mở Console (F12)
-2. Vào trang phim VIP
-3. Tab **Network**
-4. Tìm request chứa thông tin user
-5. Sửa dòng 396 trong script:
-   ```javascript
-   // Cũ:
-   if (this._url.includes("/v1/user/info")) {
-   
-   // Mới (ví dụ):
-   if (this._url.includes("/api/v2/profile")) {
-   ```
+2. Gõ: localStorage.clear()
+3. Nhấn Enter và Reload (F5)
+```
+
+**Checklist:**
+- ✅ Tampermonkey đã cài & đã bật?
+- ✅ Đang ở đúng trang rophim.com?
+- ✅ Đã reload sau khi cài?
+- ✅ Không có script khác xung đột?
+
+### **Vẫn không được?**
+
+- **Cài lại script** từ link cài đặt nhanh
+- **Kiểm tra Console (F12)** xem lỗi gì
+- Copy lại toàn bộ code từ file `tampermonkey.user.js`
 
 ---
 
 ## ⚖️ DISCLAIMER
 
-**Lưu ý quan trọng:**
-
-⚠️ Script này chỉ để **học tập** và **nghiên cứu**
-⚠️ Bypass paywall có thể **vi phạm ToS**
-⚠️ Có thể **bị ban account**
-⚠️ **Ảnh hưởng** đến creator
-
-**Khuyến nghị:**
-- Nếu thích nội dung → Support bằng VIP thật
+⚠️ **Chỉ dùng cho mục đích học tập & nghiên cứu**
+- Bypass paywall có thể vi phạm ToS
+- Nếu thích nội dung → Hãy support creator
 - Sử dụng có trách nhiệm
-- Không chia sẻ công khai
-
----
-
-## 🎓 HỌC TẬP
-
-**Code này dạy được gì:**
-
-1. **XHR Hijacking** - Hook vào XMLHttpRequest
-2. **Response Manipulation** - Sửa đổi response từ server
-3. **Object.defineProperty** - Override properties
-4. **DOM Manipulation** - Tạo UI động
-5. **Event Handling** - addEventListener
-
-**Tham khảo thêm:**
-- JavaScript Prototype
-- Browser DevTools
-- Network Analysis
-- Security Concepts
 
 ---
 
 ## 📞 HỖ TRỢ
 
-**Nếu cần giúp:**
-
-1. **Đọc lại README** (file này)
-2. **Kiểm tra Console** lỗi gì
-3. **Google** lỗi đó
-4. **Sửa code** nếu biết JavaScript
-
-**Tác giả gốc:** FireT (@ft_bypass)
-**Version này:** Modified - No Key Required
-
----
-
-## 📊 THỐNG KÊ
-
-**File info:**
-- Kích thước: ~15 KB (giảm từ 20 KB)
-- Dòng code: 475 (giảm từ 640)
-- Functions: 3 (giảm từ 7)
-- Dependencies: 0 (giảm từ 1)
-- Network requests: 0 (giảm từ 2)
-
-**Performance:**
-- Load time: <10ms
-- Execution: Ngay lập tức
-- Memory: <1 MB
-- CPU: Minimal
-
----
-
-## ✨ TÓM TẮT
-
-```
-✅ Copy file quick_extract.js
-✅ Paste vào Tampermonkey
-✅ Thêm metadata nếu cần
-✅ Bật script
-✅ Vào rophim.com
-✅ Reload trang
-✅ XONG! Xem VIP miễn phí!
-```
-
-**Không cần key, không cần gì cả! Chỉ copy & paste!** 🎉
-
----
-
-**Version:** 1.3-nokey  
-**Last Update:** 2025-10-15  
-**Status:** ✅ Working
+**Tác giả gốc:** FireT (@ft_bypass)  
+**Version:** 1.3-nokey | Modified - No Key Required  
+**Status:** ✅ Working | **Last Update:** 2025-10-15
 
