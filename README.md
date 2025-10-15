@@ -23,7 +23,7 @@ Script **KHÔNG CẦN KEY** - Hoạt động ngay lập tức!
 
 | Trình duyệt | Link tải |
 |-------------|----------|
-| **Chrome/Edge** | [Chrome Web Store]https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) |
+| **Chrome/Edge** | [Chrome Web Store](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) |
 | **Mobile** | [Mobile](https://chromewebstore.google.com/detail/tampermonkey-legacy/lcmhijbkigalmkeommnijlpobloojgfn) |
 
 ### **Bước 2: Cài Script**
