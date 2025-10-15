@@ -1,23 +1,19 @@
-# 🎬 Rophim VIP Bypass - No Key Version
-
-## 📝 Tóm tắt
+# Rophim VIP Bypass - No Key Version
 
 Script **KHÔNG CẦN KEY** - Hoạt động ngay lập tức!
-- ❌ Không cần key | ❌ Không cần Telegram | ❌ Không cần internet verify
+- Không cần key | Không cần Telegram | Không cần internet verify
 
 ---
 
 ## ⚡ CÀI ĐẶT NHANH (1 CLICK)
 
-### **Click link này để cài đặt tự động:**
-
-🔗 **[CÀI ĐẶT NGAY](https://www.tampermonkey.net/script_installation.php#url=https://github.com/Meliodaspro/bypass-vip-rophim/raw/refs/heads/main/tampermonkey.user.js)**
+**[CÀI ĐẶT NGAY](https://www.tampermonkey.net/script_installation.php#url=https://github.com/Meliodaspro/bypass-vip-rophim/raw/refs/heads/main/tampermonkey.user.js)**
 
 *(Yêu cầu đã cài Tampermonkey)*
 
 ---
 
-## 🚀 HƯỚNG DẪN CHI TIẾT
+## HƯỚNG DẪN CHI TIẾT
 
 ### **Bước 1: Cài Tampermonkey**
 
@@ -45,17 +41,17 @@ Script **KHÔNG CẦN KEY** - Hoạt động ngay lập tức!
 
 ---
 
-## ✅ XÁC NHẬN HOẠT ĐỘNG
+## XÁC NHẬN HOẠT ĐỘNG
 
 Khi script hoạt động thành công:
 
-- ✅ **Thông báo góc phải màn hình:** "VIP Bypass đã kích hoạt!"
-- ✅ **Console (F12):** "Rophim VIP Bypass (No Key Version)"
-- ✅ **Account info:** Coin: 999,999,999 | VIP: 10 năm
+- **Thông báo góc phải màn hình:** "VIP Bypass đã kích hoạt!"
+- **Console (F12):** "Rophim VIP Bypass (No Key Version)"
+- **Account info:** Coin: 999,999,999 | VIP: 10 năm
 
 ---
 
-## 🔧 TROUBLESHOOTING
+## TROUBLESHOOTING
 
 ### **Script không hoạt động?**
 
@@ -67,10 +63,10 @@ Khi script hoạt động thành công:
 ```
 
 **Checklist:**
-- ✅ Tampermonkey đã cài & đã bật?
-- ✅ Đang ở đúng trang rophim.com?
-- ✅ Đã reload sau khi cài?
-- ✅ Không có script khác xung đột?
+- Tampermonkey đã cài & đã bật?
+- Đang ở đúng trang rophim.com?
+- Đã reload sau khi cài?
+- Không có script khác xung đột?
 
 ### **Vẫn không được?**
 
@@ -80,18 +76,18 @@ Khi script hoạt động thành công:
 
 ---
 
-## ⚖️ DISCLAIMER
+## DISCLAIMER
 
-⚠️ **Chỉ dùng cho mục đích học tập & nghiên cứu**
+**Chỉ dùng cho mục đích học tập & nghiên cứu**
 - Bypass paywall có thể vi phạm ToS
 - Nếu thích nội dung → Hãy support creator
 - Sử dụng có trách nhiệm
 
 ---
 
-## 📞 HỖ TRỢ
+## HỖ TRỢ
 
 **Tác giả gốc:** FireT (@ft_bypass)  
 **Version:** 1.3-nokey | Modified - No Key Required  
-**Status:** ✅ Working | **Last Update:** 2025-10-15
+**Status:** Working | **Last Update:** 2025-10-15
 
