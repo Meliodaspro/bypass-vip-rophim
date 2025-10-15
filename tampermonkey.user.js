@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Rophim Full VIP By US
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.5
 // @description  Bypass VIP + Coin trên Rophim
 // @author       US
 // @require      https://raw.githubusercontent.com/Meliodaspro/bypass-vip-rophim/refs/heads/main/Bypas-vip-rophim.js
