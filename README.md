@@ -11,6 +11,8 @@ Script **KHÔNG CẦN KEY** - Hoạt động ngay lập tức!
 
 *(Yêu cầu đã cài Tampermonkey)*
 
+**Tự động cập nhật:** Script sẽ tự động check và update khi có phiên bản mới
+
 ---
 
 ## HƯỚNG DẪN CHI TIẾT
@@ -85,9 +87,22 @@ Khi script hoạt động thành công:
 
 ---
 
+## CẬP NHẬT
+
+Script được cấu hình **tự động cập nhật**:
+- Tampermonkey sẽ tự động check phiên bản mới mỗi ngày
+- Hoặc check thủ công: Tampermonkey Dashboard → Script → Check for Updates
+
+**Khi có update mới:**
+1. Tampermonkey sẽ hiển thị thông báo
+2. Click "Update" để cài phiên bản mới
+3. Reload trang để áp dụng
+
+---
+
 ## HỖ TRỢ
 
 **Tác giả gốc:** FireT (@ft_bypass)  
-**Version:** 1.3-nokey | Modified - No Key Required  
+**Version:** 1.6 | Modified - No Key Required  
 **Status:** Working | **Last Update:** 2025-10-15
 

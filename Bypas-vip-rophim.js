@@ -451,11 +451,7 @@ var utils = {
         }
     }
 
-    // ═══════════════════════════════════════════════════════════
-    // MAIN EXECUTION - BỎ HẾT PHẦN CHECK KEY!
-    // ═══════════════════════════════════════════════════════════
-    
-    // Kích hoạt bypass ngay lập tức - KHÔNG CẦN KEY!
+   
     initBypass();
     
     // Hiển thị thông báo kích hoạt thành công
